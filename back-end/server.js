@@ -14,5 +14,5 @@ app.listen(port, () => console.log('ouvindo a porta ', port));
 // - criar tabelas o banco de dados: npx sequelize db:migrate
 // - popular o banco de dados: npx sequelize db:seed:all
 // - para fazer tudo isso utilize: npm run pre-start
-// - rodar o servidor: npm start
+// - rodar o servidor: npm start :)
 
