@@ -1,0 +1,5 @@
+.birthDateForm[type="date"]::-webkit-inner-spin-button,
+.birthDateForm[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
