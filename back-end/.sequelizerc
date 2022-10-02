@@ -6,9 +6,3 @@ module.exports = {
   'seeders-path': path.resolve('src', 'database', 'seeders'),
   'migrations-path': path.resolve('src', 'database', 'migrations'),
 };
-
-// comandos:
-// - criar o banco de dados: npx sequelize db:create
-// - criar tabelas o banco de dados: npx sequelize db:migrate
-// - popular o banco de dados: npx sequelize db:seed:all
-// - para fazer tudo isso utilize: npm run pre-start
