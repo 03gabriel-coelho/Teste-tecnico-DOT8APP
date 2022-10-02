@@ -5,6 +5,13 @@ const { Peoples } = require('../database/models');
 
 const router = express.Router();
 
+const { 
+  validateName,
+  validateEmail,
+  validateBirthDate,
+  validateTelephone,
+  } = require('../middlewares/peoplesMiddlewares');
+
 router.get('/', async (_req, res) => {
   const users = await Peoples.findAll({
     attributes: ['id', 'name', 'email', 'birthDate', 'telephone'],
@@ -13,7 +20,12 @@ router.get('/', async (_req, res) => {
   res.status(200).json(users);
 });
 
-router.post('/', async (req, res) => {
+router.post('/', 
+  validateName,
+  validateEmail,
+  validateBirthDate,
+  validateTelephone,
+  async (req, res) => {
   const { name, email, birthDate, telephone } = req.body;
 
   try {
