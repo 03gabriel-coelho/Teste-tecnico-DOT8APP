@@ -1,0 +1,8 @@
+;Antes de usar o arquivo .env, remova "EXAMPLE" do nome do arquivo e faça as alterações condizentes com o seu local de trabalho.
+
+MYSQL_HOST=localhost
+MYSQL_PORT=3306
+MYSQL_DB_NAME=registered-people  ;Não altere este atributo!
+MYSQL_USER=root
+MYSQL_PASSWORD=0312@Gabi
+API_PORT=3001

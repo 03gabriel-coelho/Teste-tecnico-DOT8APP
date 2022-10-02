@@ -1,0 +1,34 @@
+{
+  "name": "teste-tecnico-in8-back-end",
+  "version": "1.0.0",
+  "description": "Respositório para a disposição da aplicação requirida pelo Teste técnico da empresa IN8.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/03gabriel-coelho/Teste-tecnico-IN8.git"
+  },
+  "keywords": [
+    "teste-tecnico",
+    "empresa-in8",
+    "node",
+    "express",
+    "sequelize"
+  ],
+  "author": "Gabriel Henrique Coelho Freitas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/03gabriel-coelho/Teste-tecnico-IN8/issues"
+  },
+  "homepage": "https://github.com/03gabriel-coelho/Teste-tecnico-IN8#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.3",
+    "eslint-config-trybe-backend": "^1.0.4",
+    "express": "^4.18.1",
+    "lint": "^0.7.0",
+    "sequelize": "^6.23.2"
+  }
+}
