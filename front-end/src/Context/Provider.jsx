@@ -10,12 +10,15 @@ function Provider({ children }) {
     telephone: 'Carregando',   
   });
   const [registeredStatus, setRegisteredStatus] = useState(true); //Utilizado para fazer a atualização das informações da tabela
-  
+  const [display, setDisplay] = useState('none');
+
   const contextValue = {
     lastPeople,
     setLastPeople,
     registeredStatus,
     setRegisteredStatus,
+    display,
+    setDisplay,
   };
 
   return (

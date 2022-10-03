@@ -62,3 +62,84 @@ td, th {
   top: 265%;
   right: 5%;
 }
+
+#tableListResponse {
+  display: none;
+}
+
+/* -------------------------------------------------------------- RESPONSIVIDADE */
+
+@media only screen and (max-width: 1024px) {
+  #topoPageList {
+    display: none;
+  }
+
+  #tableList {
+    width: 80% !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #listPage h1 {
+    width: 350px;
+    text-align: center;
+  }
+
+  #tableList {
+    display: none;
+  }
+
+  #tableListResponse {
+    display: flex;
+    flex-direction: column;
+    font-size: 80%;
+    width: 85%;
+    margin-bottom: 50px;
+  }
+
+  #numbersTableResponse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #numbersTableResponse h2 {
+    border: 2px solid #808080;
+    font-family: HelveticaUltra;
+    padding: 4px;
+    padding-right: 9.8%;
+    padding-left: 9.8%;
+    color: #808080;
+    margin: 0px;
+    border-bottom: 0px;
+  }
+
+  .peopleTableResponse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+  }
+
+  .peopleTableResponse h2 {
+    margin-top: 10px;
+    font-size: 130%;
+    margin: 0px;
+    margin-left: 10px;
+    font-family: HelveticaCondensed;
+  }
+
+  #peoplesTableResponse {
+    border: 2px solid #29abe2;
+  }
+
+  .secondPosition {
+    width: 70%;
+    color: #808080;
+  }
+
+  #peoplesTableResponse hr {
+    border-color: #29abe2;
+    width: 90%;
+  }
+}
