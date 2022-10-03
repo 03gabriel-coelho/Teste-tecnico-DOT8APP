@@ -22,14 +22,19 @@ body, html {
 }
 
 .headerTitles {
+  font-family: RobotoRegular;
   color: #FFF;
   text-decoration: none;
+}
+
+.headerTitles:hover {
+  text-decoration: underline;
 }
 
 #linksHeader {
   display: flex;
   justify-content: space-evenly;
-  width: 20%;
+  width: 300px;
 }
 
 #linksHeader li::marker {
@@ -49,17 +54,21 @@ body, html {
  /* IMPLEMENTAR FONTEEE */
 
 @font-face {
-  font-family: "HelveticaUltraLt_0";
-  src: local("HelveticaUltraLt_0"), url("../../Fonts/HelveticaUltraLt_0.ttf");
+  font-family: HelveticaUltra;
+  src: url('../../Fonts/helvetica-25-ultra-light.otf') format('opentype');
 }
 
 #TitlesHome h1 {
-  font-family: "HelveticaUltraLt_0";
-  font-size: 440%;
+  font-family: HelveticaUltra;
+  font-weight: bold;
+  font-size: 500%;
   margin: 0px;
+  margin-bottom: 10px;
 }
 
 #TitlesHome h2 {
+  font-family: HelveticaUltra;
   margin: 0px;
-  font-size: 195%;
+  margin-left: 2px;
+  font-size: 210%;
 }

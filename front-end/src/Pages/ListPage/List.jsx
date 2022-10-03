@@ -57,7 +57,7 @@ function List() {
           peoples.map((people, index) => {
             return (
               <tbody key={ people.id }>
-                <td className={index === (peoples.length - 1) ? 'lastLine' : ''}>{ people.id }</td>
+                <td className={index === (peoples.length - 1) ? 'lastLine numberList' : 'numberList'}>{ people.id }</td>
                 <td className={index === (peoples.length - 1) ? 'lastLine' : ''}>{ people.name }</td>
                 <td className={index === (peoples.length - 1) ? 'lastLine' : ''}>{ people.email }</td>
                 <td className={index === (peoples.length - 1) ? 'lastLine' : ''}>{ people.birthDate }</td>

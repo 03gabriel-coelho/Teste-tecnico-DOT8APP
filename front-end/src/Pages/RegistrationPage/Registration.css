@@ -19,6 +19,7 @@
 }
 
 #registrationComponent h2 {
+  font-family: HelveticaUltra;
   margin-top: 6%;
   font-size: 250%;
   color: #fff;
@@ -33,14 +34,26 @@
   margin-bottom: 2%;
 }
 
+@font-face {
+  font-family: RobotoRegular;
+  src: url('../../Fonts/Roboto-Regular_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: HelveticaCondensed;
+  src: url('../../Fonts/ps.ttf') format('truetype');
+}
+
 #registrationComponent form {
   margin-top: 0%;
   width: 40%;
   font-size: 100%;
+  font-family: RobotoRegular;
 }
 
 #registrationComponent input {
   font-size: 115% !important;
+  font-family: HelveticaCondensed;
   margin-top: 10px;
   text-decoration: none;
   background-color: #29abe2;
@@ -54,6 +67,7 @@
 }
 
 .buttonForm {
+  font-family: HelveticaUltra;
   margin-top: 15%;
   margin-bottom: 15%;
   font-size: 220%;
@@ -63,4 +77,9 @@
   padding: 12px;
   padding-right: 40px;
   padding-left: 40px;
+}
+
+.buttonForm:hover {
+  background-color: rgb(71, 71, 248);
+  color: black;
 }

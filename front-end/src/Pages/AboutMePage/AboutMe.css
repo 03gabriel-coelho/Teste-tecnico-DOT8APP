@@ -1,9 +1,8 @@
 #aboutMePage {
   background-image: url('../../Images/rodape-desktop.jpg');
   background-size: cover;
-  /* width: 100vw;
-  height: 100vh; */
   text-align: center;
+  font-family: RobotoLight;
   font-size: 70%;
   padding: 40px;
   color: #fff;
