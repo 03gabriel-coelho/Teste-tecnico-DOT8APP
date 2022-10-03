@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
+import AppContext from '../../Context/AppContext';
 import './Registration.css';
-import Header from '../../Components/Header.jsx';
 import { handleFetchPOST } from '../../Services/ApiRequests.jsx';
 
 const Registration = () => {
@@ -10,6 +10,7 @@ const Registration = () => {
   const [BDFormate, setBDFormate] = useState('');  // Este é o ultimo valor formatado do birthDate
   const [telephone, setTelephone] = useState('');
   const [loading, setLoading] = useState(false);
+  const { setRegisteredStatus, registeredStatus } = useContext(AppContext);
 
   const getFormApi = async () => {  //Função utilizada para enviar o formulario no banco de dados
     setLoading(true);
@@ -28,8 +29,13 @@ const Registration = () => {
     } catch (e) {
       alert(e.message.message)
     }
-
+    
+    setRegisteredStatus(!registeredStatus);
     setLoading(false);
+    setName('');
+    setEmail('');
+    setBirthDate('');
+    setTelephone('');
   };
 
   const telephoneFormate = ({ target: { value } }) => { // Função utilizada para formatar o número de telefone
@@ -56,8 +62,6 @@ const Registration = () => {
   };
 
   return (
-    <div>
-    <Header />
     <div id="registrationComponent">
       <h2>CADASTRO</h2>
       <form>
@@ -105,21 +109,19 @@ const Registration = () => {
           loading === false ? (
             <button
               type="button"
-              id="buttonForm"
+              className="buttonForm"
               onClick={getFormApi}
             >CADASTRAR</button>
           ) : (
             <button
               type="button"
-              id="buttonForm"
+              className="buttonForm"
               disabled="true"
             >CARREGANDO</button>
           )
         }
       </form>
     </div>
-    </div>
-  )
-};
+  )};
 
 export default Registration;

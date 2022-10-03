@@ -1,0 +1,65 @@
+#imgHeader {
+  width: 170px;
+}
+
+#homePage {
+  background-image: url('../../Images/index-image.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+body, html {
+  margin: 0px;
+  width: 100%;
+}
+
+#headerComponent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.headerTitles {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#linksHeader {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20%;
+}
+
+#linksHeader li::marker {
+  list-style-position:inside;
+  margin:0 !important;
+  padding:0;
+  color: #FFF;
+  margin: none !important;
+}
+
+#TitlesHome {
+  color: #FFF;
+  margin-top: 13%;
+  margin-left: 25%;
+}
+
+ /* IMPLEMENTAR FONTEEE */
+
+@font-face {
+  font-family: "HelveticaUltraLt_0";
+  src: local("HelveticaUltraLt_0"), url("../../Fonts/HelveticaUltraLt_0.ttf");
+}
+
+#TitlesHome h1 {
+  font-family: "HelveticaUltraLt_0";
+  font-size: 440%;
+  margin: 0px;
+}
+
+#TitlesHome h2 {
+  margin: 0px;
+  font-size: 195%;
+}

@@ -1,8 +1,8 @@
+const ENDPOINT = `http://localhost:3001/people`;
+
 // Função utilizada para exercer o método GET no nosso servidor
 
 export async function handleFetchGET() {
-
-  const ENDPOINT = `http://localhost:3001/people`;
 
   try {
     const fetchApi = await fetch(ENDPOINT);
@@ -20,7 +20,6 @@ export async function handleFetchGET() {
 // Função utilizada para exercer o método POST no nosso servidor
 
 export async function handleFetchPOST(requestData) {
-  const ENDPOINT = `http://localhost:3001/people`;
 
   const requestOptions = {
     method: 'POST',
@@ -33,6 +32,7 @@ export async function handleFetchPOST(requestData) {
 
   try {
     const response = await fetch(ENDPOINT, requestOptions);
+
     return response.json();
   } catch (e) {
     const error = e.message;
