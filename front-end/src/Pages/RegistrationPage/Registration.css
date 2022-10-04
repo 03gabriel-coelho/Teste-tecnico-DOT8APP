@@ -1,0 +1,110 @@
+.birthDateForm[type="date"]::-webkit-inner-spin-button,
+.birthDateForm[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+#registrationComponent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #29abe2;
+}
+
+#registrationComponent form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0%;
+  width: 40%;
+  font-size: 100%;
+  font-family: RobotoRegular;
+}
+
+#registrationComponent h2 {
+  font-family: HelveticaUltra;
+  margin-top: 6%;
+  font-size: 250%;
+  color: #fff;
+}
+
+#registrationComponent label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+@font-face {
+  font-family: RobotoRegular;
+  src: url('../../Fonts/Roboto-Regular_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: HelveticaCondensed;
+  src: url('../../Fonts/ps.ttf') format('truetype');
+}
+
+#registrationComponent input {
+  font-size: 115% !important;
+  font-family: HelveticaCondensed;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #29abe2;
+  color: #fff;
+  border: 0px;
+  border-bottom: 1px solid #fff;
+}
+
+#registrationComponent input::placeholder {
+  color: #fff;
+}
+
+.buttonForm {
+  font-family: HelveticaUltra;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  font-size: 220%;
+  color: #29abe2;
+  background-color: #012d51;
+  border: 0px;
+  padding: 12px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.buttonForm:hover {
+  background-color: rgb(71, 71, 248);
+  color: black;
+}
+
+@media only screen and (max-width: 1024px) {
+  #registrationComponent form {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #registrationComponent form {
+    width: 80%;
+  }
+
+  .buttonForm {
+    padding: 20px;
+    padding-right: 15%;
+    padding-left: 15%;
+    font-size: 280%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .buttonForm {
+    padding: 15px;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 250%;
+  }
+}

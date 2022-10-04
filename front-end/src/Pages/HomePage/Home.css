@@ -1,0 +1,176 @@
+#imgHeader {
+  width: 170px;
+  margin-left: 150px;
+}
+
+#homePage {
+  background-image: url('../../Images/index-image.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+body, html {
+  margin: 0px;
+  width: 100%;
+}
+
+#headerComponent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.headerTitles {
+  font-family: RobotoRegular;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.headerTitles:hover {
+  text-decoration: underline;
+}
+
+#linksHeader {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+}
+
+#linksHeader li::marker {
+  list-style-position:inside;
+  margin:0 !important;
+  padding:0;
+  color: #FFF;
+  margin: none !important;
+}
+
+#TitlesHome {
+  color: #FFF;
+  margin-top: 13%;
+  margin-left: 25%;
+}
+
+ /* IMPLEMENTAR FONTEEE */
+
+@font-face {
+  font-family: HelveticaUltra;
+  src: url('../../Fonts/helvetica-25-ultra-light.otf') format('opentype');
+}
+
+#TitlesHome h1 {
+  font-family: HelveticaUltra;
+  font-weight: bold;
+  font-size: 500%;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+#TitlesHome h2 {
+  font-family: HelveticaUltra;
+  margin: 0px;
+  margin-left: 2px;
+  font-size: 210%;
+}
+
+/* -------------------------------------------------------- RESPONSIVIDADE */
+
+#headerResponse {
+  display: none;
+  top: 30px;
+  opacity: 100% !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  #headerComponent {
+    display: none;
+  }
+
+  #headerResponse {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    opacity: 100% !important;
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+      left: 100px;
+    }
+    75% {
+      opacity: 0.5;
+      left: 0px;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      left: 100px;
+    }
+    75% {
+      opacity: 0.5;
+      left: 0px;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  #headerOpen {
+    position: absolute;
+    left: 12.5%;
+    top: 0px;
+    background-color:#29abe2;
+    padding: 36px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 1s linear;
+  }
+
+  #hamburguerOpen {
+    margin-bottom: 40px;
+  }
+
+  .titlesHeaderResponse {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #headerOpen {
+    left: 0px;
+  }
+
+  #homePage {
+    background-image: url('../../Images/index-image-mobile.jpg');
+  }
+
+  #TitlesHome {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  #headerResponse {
+    margin-left: 10%;
+  }
+
+  #imgHeader {
+    width: 30%;
+    margin-right: 10%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #TitlesHome {
+    font-size: 70%;
+  }
+}

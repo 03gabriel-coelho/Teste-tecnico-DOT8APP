@@ -1,0 +1,15 @@
+#aboutMePage {
+  background-image: url('../../Images/rodape-desktop.jpg');
+  background-size: cover;
+  text-align: center;
+  font-family: RobotoLight;
+  font-size: 70%;
+  padding: 40px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 700px) {
+  #aboutMePage {
+    background-image: url('../../Images/rodape-mobile.jpg');
+  }
+}

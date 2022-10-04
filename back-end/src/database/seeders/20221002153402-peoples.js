@@ -10,13 +10,6 @@ module.exports = {
         email: 'coelho.tibbers@gmail.com',
         birthDate: '03/12/1999',
         telephone: '(31) 99177-5264'
-      },
-      {
-        id: 2,
-        name: 'Joice Rosa Gomes',
-        email: 'jchoyse@gmail.com',
-        birthDate: '16/01/2003',
-        telephone: '(31) 99288-8801'       
       },], { timestamps: false });
   },
 
