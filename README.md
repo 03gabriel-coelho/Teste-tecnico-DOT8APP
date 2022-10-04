@@ -6,18 +6,18 @@ Respositório para a disposição da aplicação requirida pelo Teste técnico d
 
 ### Tecnológias utilizadas no FRONT-END
 
-#### React.js
-#### React Context
-#### ESLint
+#### - React.js
+#### - React Context
+#### - ESLint
 
 ### Tecnológias utilizadas no BACK-END
 
-#### Node.js
-#### Body Parser
-#### DotEnv
-#### Express
-#### Mysql2
-#### Sequelize
+#### - Node.js
+#### - Body Parser
+#### - DotEnv
+#### - Express
+#### - Mysql2
+#### - Sequelize
 
 ## Instalação e iniciando a aplicação
 
