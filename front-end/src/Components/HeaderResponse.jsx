@@ -20,7 +20,7 @@ const HeaderResponse = () => {
         onClick={ clickHamburguer }
         width="30px"
       />
-      <div id="headerOpen" style={{ display, opacity: '100%' }}>
+      <div id="headerOpen" style={{ display, opacity: '' }}>
         <img
           alt="hamburguerOpen"
           id="hamburguerOpen"
