@@ -55,22 +55,22 @@ Respositório para a disposição da aplicação requirida pelo Teste técnico d
 
 A tela home tem o intuito de redirecionar o usuário para as suas devidas funcionalidades, seja elas, ir para a tela de cadastro, ir para a tela de listagem de cadastros e ir para a tela (ou footer) sobre o usuário. Além de apresentar uma ótima primeira impressão e estética para o usuário.
 
-<img alt="TelaHome" src="./images/picOne.png" />
+![TelaHome]('./pics/picTwo.png')
 
 ### Tela de cadastro 
 
 A tela de cadastro tem o intuito de coletar informações sobre o usuário com as suas respectivas trativas de erro e formatações, sendo esses dados, o nome, o email, a data de nascimento e o telefone.
 
-![TelaRegistration]('./images/picTwo.png')
+![TelaRegistration]('./pics/picTwo.png')
 
 ### Tela de listagem de cadastros
 
 A tela de listagem dos cadastros tem o intuito de informar e disponibilizar dados de alguns de seus cadastros amarzenados no banco de dados.
 
-![TelaList]('.images/picThree.png')
+![TelaList]('.pics/picThree.png')
 
 ### Tela de informações sobre o usuário (ou footer)
 
 A tela de informações sobre o usuário tem o intuito de disponibilizar as informações sobre o usuário que acabou de se cadastrar
 
-![TelaAboutMe]('images/picFour.png')
+![TelaAboutMe]('.pics/picFour.png')
