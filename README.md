@@ -55,7 +55,7 @@ Respositório para a disposição da aplicação requirida pelo Teste técnico d
 
 A tela home tem o intuito de redirecionar o usuário para as suas devidas funcionalidades, seja elas, ir para a tela de cadastro, ir para a tela de listagem de cadastros e ir para a tela (ou footer) sobre o usuário. Além de apresentar uma ótima primeira impressão e estética para o usuário.
 
-![TelaHome]('./pics/picTwo.png')
+![TelaHome](./pics/picOne.png)
 
 ### Tela de cadastro 
 
