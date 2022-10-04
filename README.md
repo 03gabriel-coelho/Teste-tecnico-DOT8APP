@@ -67,10 +67,10 @@ A tela de cadastro tem o intuito de coletar informações sobre o usuário com a
 
 A tela de listagem dos cadastros tem o intuito de informar e disponibilizar dados de alguns de seus cadastros amarzenados no banco de dados.
 
-![TelaList](.pics/picThree.png)
+![TelaList](./pics/picThree.png)
 
 ### Tela de informações sobre o usuário (ou footer)
 
 A tela de informações sobre o usuário tem o intuito de disponibilizar as informações sobre o usuário que acabou de se cadastrar
 
-![TelaAboutMe](.pics/picFour.png)
+![TelaAboutMe](./pics/picFour.png)
