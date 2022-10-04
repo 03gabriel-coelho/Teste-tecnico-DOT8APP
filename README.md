@@ -61,16 +61,16 @@ A tela home tem o intuito de redirecionar o usuário para as suas devidas funcio
 
 A tela de cadastro tem o intuito de coletar informações sobre o usuário com as suas respectivas trativas de erro e formatações, sendo esses dados, o nome, o email, a data de nascimento e o telefone.
 
-![TelaRegistration]('./pics/picTwo.png')
+![TelaRegistration](./pics/picTwo.png)
 
 ### Tela de listagem de cadastros
 
 A tela de listagem dos cadastros tem o intuito de informar e disponibilizar dados de alguns de seus cadastros amarzenados no banco de dados.
 
-![TelaList]('.pics/picThree.png')
+![TelaList](.pics/picThree.png)
 
 ### Tela de informações sobre o usuário (ou footer)
 
 A tela de informações sobre o usuário tem o intuito de disponibilizar as informações sobre o usuário que acabou de se cadastrar
 
-![TelaAboutMe]('.pics/picFour.png')
+![TelaAboutMe](.pics/picFour.png)
